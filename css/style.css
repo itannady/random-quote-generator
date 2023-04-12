@@ -31,6 +31,7 @@ body {
 
 .quote-container {
   width: 60vw;
+  max-width: 600px;
   padding: 2rem;
   display: flex;
   flex-direction: column;
@@ -44,7 +45,7 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.3);
   backdrop-filter: blur(40px);
   border-radius: 50px;
-  color: #144A71;
+  color: #144a71;
 }
 
 .wrapper {
@@ -52,7 +53,6 @@ body {
   flex-direction: column;
   align-items: flex-end;
   margin: 2rem 6rem 2rem 6rem;
-  
 }
 
 .quote {
@@ -81,5 +81,5 @@ body {
 }
 
 #btn:hover {
-    background: #598a8a;
+  background: #598a8a;
 }
